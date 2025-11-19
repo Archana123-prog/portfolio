@@ -502,7 +502,7 @@ const Home = () => {
                 <span>GitHub</span>
               </a>
               <a
-                href="https://www.instagram.com/hay_aarav/?hl=en"
+                href="https://www.instagram.com/hay_archana/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 hover:text-[#FFD100] transition-colors"
