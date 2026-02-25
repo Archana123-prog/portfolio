@@ -1,12 +1,14 @@
 import { Suspense } from "react";
 import { useRoutes, Routes, Route } from "react-router-dom";
 import Home from "./components/home";
+import Navbar from "./components/Navbar";
 import routes from "tempo-routes";
 
 function App() {
   return (
     <Suspense fallback={<p>Loading...</p>}>
       <>
+        <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
         </Routes>
